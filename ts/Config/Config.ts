@@ -1,14 +1,9 @@
 ﻿class Config
 {
-    private static homepage: ConfigValue<string> = new ConfigValue("homepage", "https://start.duckduckgo.com/?q=");
+    private static homepage: ConfigValue<string> = new ConfigValue("homepage", "https://encrypted.google.com/#q=");
     private static linkStartsWith: ConfigValue<string[]> = new ConfigValue("linkStartsWith", ["http:", "https:", "www."]);
     private static quickSearchHotkeyStart: ConfigValue<string> = new ConfigValue("quickSearchHotkeyStart", "");
-    private static quickSearch: ConfigValue<string[][]> = new ConfigValue("quickSearch", [["d", "https://start.duckduckgo.com/?q="], ["s", "https://startpage.com/do/search?query="],
-                                                                              ["g", "https://encrypted.google.com/#q="], ["y", "https://youtube.com/results?search_query="],
-                                                                              ["r", "https://reddit.com/search?q="], ["sr", "https://reddit.com/r/"],
-                                                                              ["sx", "https://stackexchange.com/search?q="], ["so", "https://stackoverflow.com/search?q="],
-                                                                              ["gh", "https://github.com/search?q="], ["f", "https://www.facebook.com/public?query="],
-                                                                              ["dict", "http://www.dict.cc/?s="]]);
+    private static quickSearch: ConfigValue<string[][]> = new ConfigValue("quickSearch", [["g", "https://encrypted.google.com/#q="], ["y", "https://youtube.com/results?search_query="],["r", "https://reddit.com/search?q="], ["sr", "https://reddit.com/r/"],]);
     private static quickSearchHotkeyEnd: ConfigValue<string> = new ConfigValue("quickSearchHotkeyEnd", " ");
     private static useSearchSuggestions: ConfigValue<boolean> = new ConfigValue("useSearchSuggestions", true);
     private static numberOfSearchSuggestions: ConfigValue<number> = new ConfigValue("numberOfSearchSuggestions", 4);
