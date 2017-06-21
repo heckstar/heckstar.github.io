@@ -8,7 +8,7 @@
     private static useSearchSuggestions: ConfigValue<boolean> = new ConfigValue("useSearchSuggestions", true);
     private static numberOfSearchSuggestions: ConfigValue<number> = new ConfigValue("numberOfSearchSuggestions", 4);
     private static clockSeparator: ConfigValue<string> = new ConfigValue("clockSeparator", ":");
-    private static shapeColor: ConfigValue<string> = new ConfigValue("shapeColor", "#3a5b83");
+    private static shapeColor: ConfigValue<string> = new ConfigValue("shapeColor", "#48b685");
 
 
 
