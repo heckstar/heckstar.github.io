@@ -7,13 +7,17 @@
 	<!-- Mobile-friendly viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Style sheet link -->
+	<link href="https://fonts.googleapis.com/css?family=Cousine:400,400i,700" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet" media="all">
 	<link href="css/simplegrid.css" rel="stylesheet" media="all">
 	<link href="css/style.css" rel="stylesheet" media="all">
 </head>
 <body>
 	<main role="main">
-		<h1><a href="http://heckstar.github.io">heckstar.github.io</a></h1>
+		<header>
+			<h1><a href="http://heckstar.github.io">heckstar.github.io</a></h1>
+		</header>
+		
 		<div class="grid grid-pad">
 			<div class="col-1-3 linkcat">
 				<div class="linklist">
@@ -23,15 +27,6 @@
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="col-1-3 linkcat">
-				<div class="linklist">
-					<h2>Sub-heading</h2>
-					<ul>
-						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
@@ -43,6 +38,20 @@
 				<div class="linklist">
 					<h2>Sub-heading</h2>
 					<ul>
+						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-1-3 linkcat">
+				<div class="linklist">
+					<h2>Sub-heading</h2>
+					<ul>
+						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
@@ -61,6 +70,7 @@
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
 					</ul>
 				</div>
 			</div>
@@ -69,6 +79,10 @@
 				<div class="linklist">
 					<h2>Sub-heading</h2>
 					<ul>
+						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
+						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
 						<li><a href="">List item</a></li>
@@ -98,7 +112,9 @@
 
 	<script type="text/javascript">
 		$(function() {
-			console.log( Math.floor(Date.now() / 1000) );
+			var interval = setInterval(function() {
+				console.log( Math.floor(Date.now() / 1000) );
+			}, 100);
 		});
 	</script>
 </body>
